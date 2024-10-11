@@ -1,0 +1,105 @@
+body{
+    background-image: 
+        repeating-conic-gradient(from 60deg,
+            #182025 0deg 60deg,
+            #202B31 60deg 120deg);
+
+    background-size: 90px 140px;
+}
+
+.main{
+    background: #2f3e461c;
+    backdrop-filter: blur(8px);
+    margin: 0 auto;
+    margin-top: 50px;
+    width: min(600px, 90%);
+    padding: 25px;
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #E9B15D;
+    font-weight: 300;
+    letter-spacing: 8px;
+}
+
+#text-field{
+    border: none;
+    border-radius: 3px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #F1EBE4;
+}
+
+#text-field:hover{
+    color: #F1EBE4;
+}
+
+#text-field:focus{
+    font-weight: 600;
+}
+
+::placeholder{
+    color: #f1ebe494;
+    opacity: 1;
+}
+
+#add-button{
+    background: #E9B15D;
+    border: none;
+    font-weight: bold;
+    color: #202B31;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#add-button:hover{
+    background: transparent;
+    color: #E9B15D;
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    padding: 13px;
+    background-color: #212b3111;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.text-container{
+    flex-grow: 1;
+    color: #F1EBE4;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.checkbox-css{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    accent-color: #405F64;
+}
+
+.deletebutton-css{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #D35F4A;
+    font-weight: bold;
+}
+
+.deletebutton-css:hover{
+    color: #F1EBE4;
+}

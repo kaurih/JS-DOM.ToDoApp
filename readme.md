@@ -22,7 +22,7 @@ To Do -sovellus is an app that stores user input in the browser's local storage 
 
 ## Screenshots
 
-[Screenshot of the app window.](images/todo_kuva.JPG)
+![image](images/todo_kuva.JPG)
 
 Picture by me
 

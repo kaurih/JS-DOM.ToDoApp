@@ -1,5 +1,4 @@
 // Määritellään pakolliset muuttujat
-
 const textField = document.getElementById('text-field');
 const addButton = document.getElementById('add-button');
 const todoList = document.getElementById('todo-list');
@@ -16,9 +15,9 @@ addButton.addEventListener('click', function(){
         showAlert();
         return; // Jos käyttäjä antaa virheellisen syötteen (tyhjä), näytetään ilmoitus ja palataan looppiin
     } else {
-        addListElement(textField.value, false); // Add the new task (unchecked by default)
-        saveSession(); // Save the updated task list
-        textField.value = ''; // Clear the input field
+        addListElement(textField.value, false); // lisää uusi tehtävä 
+        saveSession(); // tallenna päivitetty lista
+        textField.value = ''; // tyhjennä tekstikenttä
     }
 });
 

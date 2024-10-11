@@ -2,9 +2,7 @@
 Kauri H
 
 ## Demo link:
-Access my site at [google.com](https://google.com)
-
-
+Access the app at [kaurih-todo.netlify.app](https://kaurih-todo.netlify.app/)
 
 ## Table of Content:
 
@@ -12,7 +10,6 @@ Access my site at [google.com](https://google.com)
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Approach](#approach)
 - [Status](#status)
 - [Credits](#credits)
 - [License](#license)
@@ -32,8 +29,7 @@ CSS - to style the app window.
 JavaScript - to add dynamic functionality to the app.
 
 ## Setup
-Write brief instructions on how to run and use your app. For example:
-- Navigate to 
+- Navigate to [kaurih-todo.netlify.app](https://kaurih-todo.netlify.app/)
 - Click the 'Lisää tehtävä' field to write a task
 - Click the + button on the side
 - Checkmark a task when you've completed it!
@@ -44,13 +40,24 @@ Write brief instructions on how to run and use your app. For example:
 To Do -sovellus is considered 'potentially finished'. As my first JavaScript project I'd like to improve upon it, but I might just rewrite the whole code at a later date, as I'm not super happy with how it turned out. As of now the code is quite hard to edit.
 
 ## Credits
-List of contriubutors and sources you used during the project. Also mention if you used ChatGPT or other AI tools when coding and explain how did you benefit from them.
-- [John Doe](johndoe.com)
-- [Beginners guide to BEM](link-goes-here.com)
-- [ChatGPT](https://chatgpt.com/) was used to help with debugging the save and load functions. 
+Tutorials I watched and learned from
+- [Web Dev Simplified](https://youtu.be/y17RuWkWdn8?si=tdcOkXMqoUdzrbM0) DOM manipulation basics.
+- [Bro Code](https://youtu.be/NO5kUNxGIu0?si=S139e-eCsk09gNzM) DOM manipulation basics.
+
+- [GreatStack](https://youtu.be/G0jO8kUrg-I?si=z5K_y3OMUPcj4qkT) general JS code structuring example.
+- [dcode](https://youtu.be/cijPd-TXPn4?si=d_0orztoIeeZ7Y0D) general JS code structing example example.
+
+- [CodePhilip](https://youtu.be/p6F5TBxs88A?si=m93BE1_opDbh9doZ) JS syntax and localstorage usage.
+- [ProMaker Dev](https://youtu.be/fYTTUBa-lPc?si=jyFpVEwrGyfVM3bm) Localstorage understanding.
+
+- [Coding2Go](https://youtu.be/PL3Odw-k8W4?si=z77-HiJZ45bHbBts&t=170) CSS glass effect
+- [Optimistic Web](https://youtu.be/d3frDy-q3sY?si=DKxmjiFm4XdXwCdM) CSS gradient background effect
+
+AI's used
+- [ChatGPT](https://chatgpt.com/) was used to help with hunting down typos and debugging the load/save functions.
 
 ## License
 
 MIT license @ [kaurih](kaurih@github.com)
 
-
+I will not accept push or pull requests tho.
